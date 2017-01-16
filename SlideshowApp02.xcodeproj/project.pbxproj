@@ -12,6 +12,13 @@
 		CA5335E61E28FA2100D2A9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5335E41E28FA2100D2A9EE /* Main.storyboard */; };
 		CA5335E81E28FA2100D2A9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5335E71E28FA2100D2A9EE /* Assets.xcassets */; };
 		CA5335EB1E28FA2100D2A9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA5335E91E28FA2100D2A9EE /* LaunchScreen.storyboard */; };
+		CA5335F51E28FB6B00D2A9EE /* cap01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA5335F21E28FB6B00D2A9EE /* cap01.jpg */; };
+		CA5335F61E28FB6B00D2A9EE /* cap02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA5335F31E28FB6B00D2A9EE /* cap02.jpg */; };
+		CA5335F71E28FB6B00D2A9EE /* cap03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA5335F41E28FB6B00D2A9EE /* cap03.jpg */; };
+		CA8FFA721E2CAE2800D3327B /* trump3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA8FFA6F1E2CAE2800D3327B /* trump3.jpg */; };
+		CA8FFA731E2CAE2800D3327B /* trump2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA8FFA701E2CAE2800D3327B /* trump2.jpg */; };
+		CA8FFA741E2CAE2800D3327B /* trump1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA8FFA711E2CAE2800D3327B /* trump1.jpg */; };
+		CA8FFA761E2CB6AE00D3327B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8FFA751E2CB6AE00D3327B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		CA5335E71E28FA2100D2A9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA5335EA1E28FA2100D2A9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA5335EC1E28FA2100D2A9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5335F21E28FB6B00D2A9EE /* cap01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap01.jpg; sourceTree = "<group>"; };
+		CA5335F31E28FB6B00D2A9EE /* cap02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap02.jpg; sourceTree = "<group>"; };
+		CA5335F41E28FB6B00D2A9EE /* cap03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap03.jpg; sourceTree = "<group>"; };
+		CA8FFA6F1E2CAE2800D3327B /* trump3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trump3.jpg; sourceTree = "<group>"; };
+		CA8FFA701E2CAE2800D3327B /* trump2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trump2.jpg; sourceTree = "<group>"; };
+		CA8FFA711E2CAE2800D3327B /* trump1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trump1.jpg; sourceTree = "<group>"; };
+		CA8FFA751E2CB6AE00D3327B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +52,12 @@
 		CA5335D41E28FA2100D2A9EE = {
 			isa = PBXGroup;
 			children = (
+				CA8FFA6F1E2CAE2800D3327B /* trump3.jpg */,
+				CA8FFA701E2CAE2800D3327B /* trump2.jpg */,
+				CA8FFA711E2CAE2800D3327B /* trump1.jpg */,
+				CA5335F21E28FB6B00D2A9EE /* cap01.jpg */,
+				CA5335F31E28FB6B00D2A9EE /* cap02.jpg */,
+				CA5335F41E28FB6B00D2A9EE /* cap03.jpg */,
 				CA5335DF1E28FA2100D2A9EE /* SlideshowApp02 */,
 				CA5335DE1E28FA2100D2A9EE /* Products */,
 			);
@@ -57,6 +77,7 @@
 				CA5335E01E28FA2100D2A9EE /* AppDelegate.swift */,
 				CA5335E21E28FA2100D2A9EE /* ViewController.swift */,
 				CA5335E41E28FA2100D2A9EE /* Main.storyboard */,
+				CA8FFA751E2CB6AE00D3327B /* DetailViewController.swift */,
 				CA5335E71E28FA2100D2A9EE /* Assets.xcassets */,
 				CA5335E91E28FA2100D2A9EE /* LaunchScreen.storyboard */,
 				CA5335EC1E28FA2100D2A9EE /* Info.plist */,
@@ -124,6 +145,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA5335EB1E28FA2100D2A9EE /* LaunchScreen.storyboard in Resources */,
+				CA5335F71E28FB6B00D2A9EE /* cap03.jpg in Resources */,
+				CA8FFA721E2CAE2800D3327B /* trump3.jpg in Resources */,
+				CA8FFA731E2CAE2800D3327B /* trump2.jpg in Resources */,
+				CA8FFA741E2CAE2800D3327B /* trump1.jpg in Resources */,
+				CA5335F61E28FB6B00D2A9EE /* cap02.jpg in Resources */,
+				CA5335F51E28FB6B00D2A9EE /* cap01.jpg in Resources */,
 				CA5335E81E28FA2100D2A9EE /* Assets.xcassets in Resources */,
 				CA5335E61E28FA2100D2A9EE /* Main.storyboard in Resources */,
 			);
@@ -136,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8FFA761E2CB6AE00D3327B /* DetailViewController.swift in Sources */,
 				CA5335E31E28FA2100D2A9EE /* ViewController.swift in Sources */,
 				CA5335E11E28FA2100D2A9EE /* AppDelegate.swift in Sources */,
 			);
@@ -297,6 +325,7 @@
 				CA5335F11E28FA2100D2A9EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
