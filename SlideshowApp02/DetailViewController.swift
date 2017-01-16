@@ -23,7 +23,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       print(count)
+      // print(count)
         // Do any additional setup after loading the view.
         let image_count = count
         
