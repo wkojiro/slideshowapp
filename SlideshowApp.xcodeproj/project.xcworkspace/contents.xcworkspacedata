@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SlideshowApp02.xcodeproj">
+      location = "self:/Users/wkojiro/work/swift_techacademy/SlideshowApp02/SlideshowApp.xcodeproj">
    </FileRef>
 </Workspace>

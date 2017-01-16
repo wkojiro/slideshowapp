@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CA5335DC1E28FA2100D2A9EE"
-               BuildableName = "SlideshowApp02.app"
-               BlueprintName = "SlideshowApp02"
-               ReferencedContainer = "container:SlideshowApp02.xcodeproj">
+               BuildableName = "SlideshowApp.temp_caseinsensitive_rename02.app"
+               BlueprintName = "SlideshowApp.temp_caseinsensitive_rename02"
+               ReferencedContainer = "container:SlideshowApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CA5335DC1E28FA2100D2A9EE"
-            BuildableName = "SlideshowApp02.app"
-            BlueprintName = "SlideshowApp02"
-            ReferencedContainer = "container:SlideshowApp02.xcodeproj">
+            BuildableName = "SlideshowApp.temp_caseinsensitive_rename02.app"
+            BlueprintName = "SlideshowApp.temp_caseinsensitive_rename02"
+            ReferencedContainer = "container:SlideshowApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CA5335DC1E28FA2100D2A9EE"
-            BuildableName = "SlideshowApp02.app"
-            BlueprintName = "SlideshowApp02"
-            ReferencedContainer = "container:SlideshowApp02.xcodeproj">
+            BuildableName = "SlideshowApp.temp_caseinsensitive_rename02.app"
+            BlueprintName = "SlideshowApp.temp_caseinsensitive_rename02"
+            ReferencedContainer = "container:SlideshowApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CA5335DC1E28FA2100D2A9EE"
-            BuildableName = "SlideshowApp02.app"
-            BlueprintName = "SlideshowApp02"
-            ReferencedContainer = "container:SlideshowApp02.xcodeproj">
+            BuildableName = "SlideshowApp.temp_caseinsensitive_rename02.app"
+            BlueprintName = "SlideshowApp.temp_caseinsensitive_rename02"
+            ReferencedContainer = "container:SlideshowApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
