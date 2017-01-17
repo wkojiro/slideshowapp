@@ -14,7 +14,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SlideshowApp02" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SlideshowApp_temp_caseinsensitive_rename02" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -88,7 +88,7 @@
         <!--Detail View Controller-->
         <scene sceneID="WMe-xw-26e">
             <objects>
-                <viewController id="Yq9-0U-boH" customClass="DetailViewController" customModule="SlideshowApp02" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Yq9-0U-boH" customClass="DetailViewController" customModule="SlideshowApp_temp_caseinsensitive_rename02" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FHN-Y4-P4i"/>
                         <viewControllerLayoutGuide type="bottom" id="0Lf-IG-SnH"/>

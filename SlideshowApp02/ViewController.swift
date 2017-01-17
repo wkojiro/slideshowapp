@@ -29,9 +29,14 @@ class ViewController: UIViewController {
  //   let myScaleDownView: UIImageView = UIImageView()
     /// 一定の間隔で処理を行うためのタイマー
     var timer: Timer!
+    
+    var returncount: Int? = nil
+    
     var count = 0
+    
     var playvalue:Bool = true
     
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -56,17 +61,14 @@ class ViewController: UIViewController {
         // 表示用のUIImageViewを生成.
         topimageView.frame =  CGRect(x: downPosX, y: downPosY, width: imageWidth, height: imageHeight)
         
-        
-        
-        
-        
+       
         // タイマーを設定
      //   timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(self.update), userInfo: nil, repeats: true)
         // 一定間隔でiの値を０、１、２に書き換える
         
         let myImage: UIImage = UIImage(named: trumpimages[count])!
         
-        
+
         
         // UIImageViewに画像を設定する.
         topimageView.image = myImage
@@ -79,6 +81,7 @@ class ViewController: UIViewController {
         self.view.addSubview(topimageView)
         
         
+        
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
@@ -88,6 +91,16 @@ class ViewController: UIViewController {
         // 繊維先のResultで宣言している値に代入して渡す
         
         detailViewController.count = count
+        
+        //戻ってきた時のためにcount値を用意しておく（このcount値の画像から再スタートできるように）
+        returncount = count
+        
+   //     if timer.isValid == true {
+            
+   //         timer.invalidate()
+            
+   //     }
+        
         
     }
     
@@ -100,7 +113,11 @@ class ViewController: UIViewController {
     
     /// NSTimerによって、一定の間隔で呼び出される関数
     func update(tm: Timer) {
+ 
+        /*
+        if returncount != nil {
         
+          count = returncount!
         // 関数が呼ばれていることを確認
         if count == 0 {
             count = 1
@@ -111,9 +128,35 @@ class ViewController: UIViewController {
         }
         
         topimageView.image = UIImage(named: trumpimages[count])
+            
+        } else if returncount == nil {
+        */
+            if count == 0 {
+                count = 1
+            } else if count == 1 {
+                count = 2
+            } else if count == 2 {
+                count = 0
+            }
+            
+        topimageView.image = UIImage(named: trumpimages[count])
+  
+            
+       // }
     }
 
 
+/* 写真をタップしたらタイマーを切るという実装をしたが上手く動かない。
+    func tapgesture(gestureRecognizer: UITapGestureRecognizer){
+        print("hello")
+        if timer.isValid == true {
+            
+            timer.invalidate()
+        
+        }
+    }
+*/
+    
     @IBAction func playbutton(_ sender: Any) {
         
     //   let img = UIImage(named:"cap01.jpg")
@@ -125,7 +168,12 @@ class ViewController: UIViewController {
         backbutton.isEnabled = false
             
         playvalue = false
+         
             
+        if returncount != nil {
+                
+              count = returncount!
+        }
         // タイマーを設定
         timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(self.update), userInfo: nil, repeats: true)
             
@@ -186,7 +234,22 @@ class ViewController: UIViewController {
     }
     
     @IBAction func unwind(segue: UIStoryboardSegue){
-
+        
+        // 詳細画面からの戻りで値があれば
+        //if returncount != nil{
+       count = returncount!
+        //}
+        print(count)
+        print("hello")
+/*        if count == 0 {
+            count = 2
+        } else if count == 1 {
+            count = 0
+        } else if count == 2 {
+            count = 1
+        }
+*/        
+       topimageView.image = UIImage(named: trumpimages[count])
     }
 
 
